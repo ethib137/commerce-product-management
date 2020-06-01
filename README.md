@@ -4,6 +4,8 @@ A GUI for bulk deleting commerce products in Liferay `7.2`.
 
 ## Usage
 
+Build the module yourself using the steps below or simply copy `dist/commerce-product-management-1.0.0.jar` to your deploy folder.
+
 Add the `Commerce Product Management` widget to a page from the widget menu under the `Commerce` category.
 
 ![Delete Products](/images/delete-products.png)
