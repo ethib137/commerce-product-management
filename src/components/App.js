@@ -29,13 +29,15 @@ const DELTAS = [
 
 const spritemap = themeDisplay.getPathThemeImages() + "/lexicon/icons.svg";
 
-function App() {
+function App({configuration}) {
+	const configurationPageDelta = configuration.portletInstance.pageDelta;
+
 	const [products, setProducts] = useState([]);
 	const [selectedProductIds, setSelectedProductIds] = useState([]);
 	const [processId, setProcessId] = useState(-1);
 	const [executeStatus, setExecuteStatus] = useState();
 	const [activePage, setActivePage] = useState(1);
-	const [delta, setDelta] = useState(20);
+	const [delta, setDelta] = useState(configurationPageDelta ? parseInt(configurationPageDelta) : 20);
 	const [totalProducts, setTotalProducts] = useState(0);
 	const [search, setSearch] = useState("");
 	const [loading, setLoading] = useState(true);
