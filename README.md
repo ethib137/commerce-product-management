@@ -12,7 +12,7 @@ Add the `Commerce Product Management` widget to a page from the widget menu unde
 
 ## How to Build and Deploy to Liferay
 
-Update `.npmbuildrc` so that `liferayDir` points to your local Liferay bundle.
+Update `.npmbuildrc` so that `liferayDir` points to your local Liferay bundle by running ` $ npm run init`.
 
 ### Build it
 ` $ npm install`
