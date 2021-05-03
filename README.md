@@ -1,6 +1,6 @@
 # Liferay Commerce Product Bulk Delete
 
-A GUI for bulk deleting commerce products in Liferay `7.2`.
+A GUI for bulk deleting commerce products in Liferay `7.2` & `7.3`.
 
 ## Usage
 
